@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.div1{
+    width: 300px;
+    height: 400px;
+    background: url(images/man1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    transition: 1s;
+    
+}
+
+/* .div2{
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    background-image: url(images/man2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+} */
+
+.div1:hover {
+    background: url(images/man2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* .div2:hover{
+    background-image: url(images/man1.jpeg);
+} */

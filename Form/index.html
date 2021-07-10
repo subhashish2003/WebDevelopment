@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+
+    <form action="submit.html">
+        <fieldset>
+            <label for="first" >First Name:</label>
+        <input type="text" id="first" placeholder="First Name"><br><br>
+
+        <label for="last">Last Name:</label>
+        <input type="text" id="last" placeholder="Last Name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Email ID"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Password"><br><br>
+
+        <label for="">Gender:</label>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gen">
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gen">
+        <br><br>
+
+        <label>Birthday</label><br>
+        <select >
+            <option>Day</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+        </select>
+
+        <select >
+            <option>Month</option>
+            <option>Jan</option>
+            <option>Feb</option>
+            <option>Mar</option>
+            <option>Apr</option>
+            <option>May</option>
+            <option>Jun</option>
+        </select>
+
+        <select >
+            <option>Year</option>
+            <option>2021</option>
+            <option>2020</option>
+            <option>2019</option>
+            <option>2018</option>
+            <option>2017</option>
+            <option>2016</option>
+        </select>
+        <br><br>
+
+        <label>Date of Birth</label><br>
+        <input type="date">
+        <br><br>
+
+        <label>Upload your Resume</label><br>
+        <input type="file">
+        <br><br>
+
+        <label>Your Favorite Color: </label>
+        <input type="color">
+        <br><br>
+
+        <label>Your Message</label><br>
+        <textarea cols="30" rows="10" placeholder="Leave your message"></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset">
+        </fieldset>
+    </form>
+
+
+</body>
+</html>
