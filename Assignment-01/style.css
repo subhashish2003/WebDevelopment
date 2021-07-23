@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+.half-width{
+    width: 32%;
+    padding: 2%;
+    margin-left: 5%;
+    float: left;
+}
+.half-width img{
+    width: 100%;
+}
+.half-width p {
+    margin-bottom: 40px;
+}
+.first-half h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 20pt;
+}
+.name{
+    color: tomato;
+}
+.link-button{
+    text-decoration: none;
+    padding: 15px 40px;
+    color: white;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgb(219, 84, 31), tomato);
+}
+section{
+    height: 400px;
+    padding-bottom: 150px;
+    margin-top: 100px;
+}
+.second-half h2{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.third-half{
+    height: 390px;
+    background-color: lightblue;
+    margin-bottom: 40px;
+}
+.projects span{
+    color: tomato;
+}
+.projects h2{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.img-bg{
+    width: 31.33%;
+    margin: 0 1%;
+    float: left;
+   overflow: hidden;
+   height: 90%;
+   background-color: white;
+   border-radius: 5px;
+}
+.img-bg img{
+    width: 100%;
+    margin-top: 5px;
+}
+.img-bg p{
+    margin-left: 5px;
+    font-family: Roboto;
+}
+.img-bg h3{
+    margin-left: 5px;
+    font-family: Roboto;
+}
+
+
+.inquery{
+    width: 50%;
+    height: 98px;
+    margin: auto;
+    padding-top: 82px;
+    background-image: url("images/inquery.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.inquery h2 {
+        padding-top: 63px;
+        padding-left: 10px;
+        display: inline-block;
+        overflow: hidden;
+        display: inline;
+        color: white;
+}
+.inquery a{
+    overflow: hidden;
+}
+.link-btn{
+    margin-left: 348px;
+}
+.forth-half{
+    height: 100px;
+}
+.footer-area p{
+    text-align: center;
+    text-transform: capitalize;
+}
+.footer-area h3{
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 25px;
+}
+
